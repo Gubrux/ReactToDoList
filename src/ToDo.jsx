@@ -42,7 +42,7 @@ function TodoApp() {
     return (
         <div>
             <div className="add-task">
-                <h1>Hola! agrega tus tareas del dia porfi.</h1>
+                <h1>Hola! agrega tus tareas del dia ;))</h1>
                 <h2>No aceptamos simbolos.</h2>
                 <input value={newTodo} onChange={(e) => setNewTodo(e.target.value)} onKeyPress={handleKeyPress} />
                 <button onClick={addTodo}>Add</button>
